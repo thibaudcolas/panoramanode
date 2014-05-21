@@ -22,5 +22,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ThibWeb/midi-node/issues"
+  },
+  "dependencies": {
+    "workshopper-exercise": "^0.2.3",
+    "workshopper": "^1.0.0-alpha07",
+    "traceur": "0.0.42"
   }
 }
