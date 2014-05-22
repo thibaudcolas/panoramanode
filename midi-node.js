@@ -8,7 +8,7 @@ var path = require('path');
 workshopper({
     name: 'midi-node',
     title: 'Découvrons Node ! — Une série d\'exercices interactifs en français pour apprendre les bases de Node.',
-    subtitle: '\x1b[23mSélectionner un éxercice et presser \x1b[3mEntrée\x1b[23m pour démarrer',
+    subtitle: '\x1b[23mPick one and press \x1b[3mEnter\x1b[23m',
     exerciseDir: path.resolve(__dirname, 'exercises'),
     appDir: __dirname,
     helpFile: path.resolve(__dirname, 'help.txt'), // doesn't seem to be working
