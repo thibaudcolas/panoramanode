@@ -1,8 +1,9 @@
 {
   "name": "midi-node",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Play with node at lunch time!",
-  "main": "index.js",
+  "bin" : "./midi-node.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,11 +12,9 @@
     "url": "git@github.com:ThibWeb/midi-node.git"
   },
   "keywords": [
-    "midi",
-    "node",
-    "nodejs",
     "javascript",
-    "lunch",
+    "workshopper",
+    "nodeschool",
     "training"
   ],
   "author": "ThibWeb",
