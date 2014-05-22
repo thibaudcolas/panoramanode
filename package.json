@@ -1,7 +1,7 @@
 {
   "name": "midi-node",
   "version": "0.1.0",
-  "description": "Play with node at lunch time!",
+  "description": "Découvrons Node ! — Une série d'exercices interactifs en français pour apprendre les bases de Node.",
   "bin" : "./midi-node.js",
   "preferGlobal": true,
   "scripts": {
