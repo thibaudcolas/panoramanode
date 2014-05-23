@@ -7,7 +7,7 @@ var path = require('path');
 
 workshopper({
     name: 'midi-node',
-    title: 'Découvrons Node ! — Une série d\'exercices interactifs en français pour apprendre les bases de Node.',
+    title: 'Découvrons Node ! — Une série d\'exercices interactifs en français.',
     subtitle: '\x1b[23mPick one and press \x1b[3mEnter\x1b[23m',
     exerciseDir: path.resolve(__dirname, 'exercises'),
     appDir: __dirname,
