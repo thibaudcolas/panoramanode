@@ -1,3 +1,17 @@
 [
-    "HELLO WORLD"
+  "HELLO WORLD",
+  "BABY STEPS",
+  "MY FIRST I/O!",
+  "MY FIRST ASYNC I/O!",
+  "HTTP CLIENT",
+  "HTTP FILE SERVER",
+  "MEET PIPE",
+  "INPUT OUTPUT",
+  "CRYPT",
+  "Higher Order Functions",
+  "Basic: Map",
+  "Basic: Filter",
+  "TEMPLATE STRINGS",
+  "SPREAD",
+  "REST"
 ]
