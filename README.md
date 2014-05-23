@@ -7,10 +7,20 @@ Les exercices sont des traductions quasi-directes d'exercices de [NodeSchool](ht
 
 - [learnyounode](https://github.com/rvagg/learnyounode)
 - [stream-adventure](https://github.com/substack/stream-adventure)
-- [functional-javascript](TODO)
+- [functional-javascript](http://nodeschool.io)
 - [count-to-6](https://github.com/domenic/count-to-6)
 
-# Installation
+# Comment démarrer
+
+Pré-requis : [Node.js](http://nodejs.org/) en version 0.10 au minimum.
+
+```
+  npm install -g midi-node
+  # ou
+  sudo npm install -g midi-node
+```
+
+Voilà ! Direction le terminal, `midi-node` !
 
 ## Liste des exercices
 
@@ -36,13 +46,7 @@ Les exercices sont des traductions quasi-directes d'exercices de [NodeSchool](ht
   + SPREAD
   + REST
 
-
-
 ## TODO
 
-- Liste détaillée des exercices avec source
-- Instructions d'installation
-- Documentation de Node
-- Ajout des exercices
+- Documentation de Node / JavaScript
 - Ajout de solutions avec / sans ES6
-- Ajout de liens vers nodeschool / workshopper
