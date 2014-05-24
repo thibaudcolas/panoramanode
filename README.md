@@ -49,4 +49,7 @@ Voilà ! Direction le terminal, `midi-node` !
 ## TODO
 
 - Documentation de Node / JavaScript
+- Traduction
+- Vérification
+- Ajout de q / rimraf
 - Ajout de solutions avec / sans ES6
