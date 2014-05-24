@@ -1,7 +1,7 @@
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
 
 ----------------------------------------------------------------------
-## HINTS
+## Conseils
 
 You can access command-line arguments via the global `process` object. The `process` object has an `argv` property which is an array containing the complete command-line. i.e. `process.argv`.
 

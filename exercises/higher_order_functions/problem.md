@@ -5,25 +5,25 @@ A higher-order function (also functional form, functional or functor) is a funct
 
 All other functions are first order functions. [1]
 
-# Task
+# Tâche
 
 Implement a higher-order function that takes a function and calls it 'n' times.
 
-## Arguments
+## Paramètres
 
 * operation: A Function, takes no arguments, returns no useful value.
 * num: the number of times to call `operation`
 
-## Resources
+## Ressources
 
 * https://en.wikipedia.org/wiki/Higher-order_function
 
-## Hint: Recursion
+## Conseils : récursion
 
 It's ok to use a loop in your implementation, bonus points
 if you don't.
 
-## Boilerplate
+## Base
 
 ```js
 function repeat(operation, num) {

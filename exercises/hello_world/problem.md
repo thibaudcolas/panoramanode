@@ -1,7 +1,7 @@
 Écris un programme qui affiche le texte "HELLO WORLD" sur la console (stdout).
 
 ----------------------------------------------------------------------
-## HINTS
+## Conseils
 
 Pour faire des programmes Node.js, créé un fichier avec l'extension `.js`, et ensuite ce n'est que du JavaScript ! Exécute le programme en le lançant avec la commande `node`. Exemple :
 

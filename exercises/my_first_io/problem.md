@@ -3,7 +3,7 @@ Write a program that uses a single **synchronous** filesystem operation to read 
 The full path to the file to read will be provided as the first command-line argument.
 
 ----------------------------------------------------------------------
-## HINTS
+## Conseils
 
 To perform a filesystem operation you are going to need the `fs` module from the Node core library. To load this kind of module, or any other "global" module, use the following incantation:
 

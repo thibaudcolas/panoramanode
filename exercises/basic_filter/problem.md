@@ -1,10 +1,10 @@
-# Task
+# Tâche
 Use Array#filter to write a function called `getShortMessages`.
 
 `getShortMessages` takes an array of objects with '.message' properties
 and returns an array of messages that are *less than < 50 characters long*.
 
-## Arguments
+## Paramètres
 
 * messages: an Array of 10 to 100 random objects that look something like this:
 
@@ -18,11 +18,11 @@ and returns an array of messages that are *less than < 50 characters long*.
 
 * Do not use for loops or Array#forEach.
 
-## Hint
+## Conseils
 
 * Try chaining some Array methods!
 
-## Expected Output
+## Sortie attendue
 
 The function should return an array containing the messages themselves,
 *without their containing object*.
@@ -35,12 +35,12 @@ e.g.
   'Est ut irure irure nisi.' ]
 ```
 
-## Resources
+## Ressources
 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-## Boilerplate
+## Base
 
 ```js
 function getShortMessages(messages) {

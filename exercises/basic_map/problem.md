@@ -1,4 +1,4 @@
-# Task
+# Tâche
 
 Convert the following code from a for-loop to Array#map:
 
@@ -14,7 +14,7 @@ function doubleAll(numbers) {
 module.exports = doubleAll
 ```
 
-## Arguments
+## Paramètres
 
 * numbers: An Array of 1 to 20 Integers between 0 and 9
 
@@ -25,11 +25,11 @@ module.exports = doubleAll
  unless a stub is provided in the boilerplate.
 * Your solution should use Array.prototype.map()
 
-## Resources
+## Ressources
 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-## Boilerplate
+## Base
 
 ```js
 function doubleAll(numbers) {

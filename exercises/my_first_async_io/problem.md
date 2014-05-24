@@ -3,7 +3,7 @@ Write a program that uses a single **asynchronous** filesystem operation to read
 The full path to the file to read will be provided as the first command-line argument.
 
 ----------------------------------------------------------------------
-# HINTS
+## Conseils
 
 The solution to this problem is *almost* the same as the previous problem except you must now do it **the Node.js way**: asynchronous.
 
