@@ -53,3 +53,4 @@ Voilà ! Direction le terminal, `midi-node` !
 - Vérification
 - Ajout de q / rimraf
 - Ajout de solutions avec / sans ES6
+- Mail d'orga
