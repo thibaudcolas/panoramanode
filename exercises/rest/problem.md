@@ -1,3 +1,8 @@
+Write a module function which returns the average of a given list of numbers.
+
+----------------------------------------------------------------------
+## Conseils
+
 Now that you know how to use the spread operator, we can introduce you to its counterpart, _rest parameters_.
 
 Rest parameters are used when you want to write a function that accepts a variadic number of arguments, but acts on them as if they were an array. For example,
@@ -17,7 +22,8 @@ sum(1, 2, 3); // 6
 
 Note that in the above example, `args` is a real array, with a `forEach` method and everything. Just like the spread operator helps us get rid of `.apply`, rest parameters help us get rid of `Array.prototype.slice.call(arguments)`. Yayyyy!
 
----
+----------------------------------------------------------------------
+## Sortie attendue
 
 This exercise uses a slightly different format than usual. This time, your goal is to write a Node module whose default export is an average function. You *don't* need to print anything to the console. That is, your solution should look something like:
 

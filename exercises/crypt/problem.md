@@ -3,6 +3,9 @@ encrypted data will be written to stdin.
 
 Simply decrypt the data and stream the result to process.stdout.
 
+----------------------------------------------------------------------
+## Conseils
+
 You can use the `crypto.createDecipher()` api from node core to solve this
 challenge. Here's an example:
 

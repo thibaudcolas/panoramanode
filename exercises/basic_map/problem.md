@@ -1,5 +1,3 @@
-# Tâche
-
 Convert the following code from a for-loop to Array#map:
 
 ```js
@@ -14,6 +12,7 @@ function doubleAll(numbers) {
 module.exports = doubleAll
 ```
 
+----------------------------------------------------------------------
 ## Paramètres
 
 * numbers: An Array of 1 to 20 Integers between 0 and 9

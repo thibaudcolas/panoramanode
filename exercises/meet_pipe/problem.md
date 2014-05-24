@@ -2,6 +2,9 @@ You will get a file as the first argument to your program (process.argv[2]).
 
 Use `fs.createReadStream()` to pipe the given file to `process.stdout`.
 
+----------------------------------------------------------------------
+## Conseils
+
 `fs.createReadStream()` takes a file as an argument and returns a readable
 stream that you can call `.pipe()` on. Here's a readable stream that pipes its
 data to `process.stderr`:

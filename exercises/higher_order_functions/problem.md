@@ -1,3 +1,8 @@
+Implement a higher-order function that takes a function and calls it 'n' times.
+
+----------------------------------------------------------------------
+## Higher-order functions
+
 A higher-order function (also functional form, functional or functor) is a function that does at least one of the following:
 
 * take one or more functions as an input
@@ -5,9 +10,6 @@ A higher-order function (also functional form, functional or functor) is a funct
 
 All other functions are first order functions. [1]
 
-# Tâche
-
-Implement a higher-order function that takes a function and calls it 'n' times.
 
 ## Paramètres
 

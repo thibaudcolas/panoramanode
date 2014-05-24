@@ -1,9 +1,9 @@
-# Tâche
 Use Array#filter to write a function called `getShortMessages`.
 
 `getShortMessages` takes an array of objects with '.message' properties
 and returns an array of messages that are *less than < 50 characters long*.
 
+----------------------------------------------------------------------
 ## Paramètres
 
 * messages: an Array of 10 to 100 random objects that look something like this:
