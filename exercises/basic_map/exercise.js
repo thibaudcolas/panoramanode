@@ -1,6 +1,6 @@
 "use strict"
 
-var input = require('../../functional-input')
+var input = require('../../lib/functional-input')
 
 function randomInt(min, max) {
   return Math.floor((Math.random() * max - min) + min)

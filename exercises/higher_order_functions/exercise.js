@@ -1,6 +1,6 @@
 "use strict"
 
-var input = require('../../functional-input')
+var input = require('../../lib/functional-input')
 var lorem = require('lorem-ipsum')
 
 function randomInt(min, max) {
