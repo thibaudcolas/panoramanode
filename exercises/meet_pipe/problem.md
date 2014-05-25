@@ -14,3 +14,5 @@ data to `process.stderr`:
 
 Your program is basically the same idea, but instead of `'data.txt'`, the
 filename comes from `process.argv[2]` and you should pipe to stdout, not stderr.
+
+----------------------------------------------------------------------

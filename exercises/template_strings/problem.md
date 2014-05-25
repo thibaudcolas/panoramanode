@@ -27,3 +27,5 @@ Your name lowercased is "domenic".
 ```
 
 You can start by doing this using ES5 constructs if you like, but the correct solution should use a _single_ ES6 template string.
+
+----------------------------------------------------------------------

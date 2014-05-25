@@ -16,3 +16,5 @@ challenge. Here's an example:
     stream.end();
 
 Instead of calling `.write()` yourself, just pipe stdin into your decrypter.
+
+----------------------------------------------------------------------

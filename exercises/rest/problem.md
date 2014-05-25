@@ -34,3 +34,5 @@ module.exports = function average(/* what goes here */) {
 ```
 
 We'll test your module by passing it a few different sets of arguments, e.g. `average(1, 2, 3)` and `average(5, 10)`, and making sure that it works in all cases. Otherwise, the process is the same as before: use `{appname} verify program.js` to test your result, and so on.
+
+----------------------------------------------------------------------
