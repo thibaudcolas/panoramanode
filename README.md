@@ -66,3 +66,4 @@ Voilà ! Direction le terminal, `midi-node` !
 - boganipsum
 - q
 - rimraf
+- traceur
