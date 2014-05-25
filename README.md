@@ -54,3 +54,15 @@ Voilà ! Direction le terminal, `midi-node` !
 - Ajout de q / rimraf
 - Ajout de solutions avec / sans ES6
 - Mail d'orga
+
+## Missing packages
+
+- lorem-ipsum
+- through
+- boganipsum/clean_words
+- through2
+- hyperquest
+- workshopper-wrappedexec
+- boganipsum
+- q
+- rimraf
