@@ -1,4 +1,4 @@
-var input = require('../../input')
+var input = require('../../functional-input')
 
 function randomInt(min, max) {
   return Math.floor((Math.random() * max - min) + min)
