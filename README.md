@@ -30,12 +30,12 @@ Voilà ! Direction le terminal, `midi-node` !
 - Opérations I/O
   + MY FIRST I/O!
   + MY FIRST ASYNC I/O!
-- HTTP
-  + HTTP CLIENT
-  + HTTP FILE SERVER
 - Streams
   + MEET PIPE
   + CRYPT
+- HTTP
+  + HTTP CLIENT
+  + HTTP FILE SERVER
 - Programmation fonctionnelle
   + HIGHER ORDER FUNCTIONS
   + BASIC FILTER
