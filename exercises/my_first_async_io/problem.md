@@ -1,21 +1,21 @@
-Write a program that uses a single **asynchronous** filesystem operation to read a file and print the number of newlines it contains to the console (stdout), similar to running `cat file | wc -l`.
+Écris un programme qui utilise une seule opération de système de fichier **asynchrone** pour lire un fichier et afficher le nombre de lignes qu'il contient sur la console (stdout), de la même manière que le ferait `cat file | wc -l`.
 
-The full path to the file to read will be provided as the first command-line argument.
+Le chemin complet vers le fichier à lire sera fourni via le premier argument de ligne de commande.
 
 ----------------------------------------------------------------------
 ## Conseils
 
-The solution to this problem is *almost* the same as the previous problem except you must now do it **the Node.js way**: asynchronous.
+La solution à ce problème est *quasiment* la même qu'au précédent, à l'exception qu'il faut maintenant réaliser la lecture **the Node.js way** : en asynchrone.
 
-Instead of `fs.readFileSync()` you will want to use `fs.readFile()` and instead of using the return value of this method you need to collect the value from a callback function that you pass in as the second argument.
+À la place de `fs.readFileSync()`, il faudra utiliser `fs.readFile()` et récupérer le contenu du fichier via un callback passé comme deuxième argument de la méthode de lecture.
 
-Remember that idiomatic Node.js callbacks normally have the signature:
+Les callbacks idiomatiques de Node.js ont la signature :
 
 ```js
 function callback (err, data) { /* ... */ }
 ```
 
-so you can check if an error occurred by checking whether the first argument is truthy. If there is no error, you should have your `Buffer` object as the second argument. As with `readFileSync()`, you can supply 'utf8' as the second argument and put the callback as the third argument and you will get a `String` instead of a `Buffer`.
+afin de savoir si une erreur a été levée en vérifiant si le premier argument est *truthy* (`if (err) { /* handle error */ }`). S'il n'y a pas d'erreur, l'objet `Buffer` est en deuxième argument. Comme pour `readFileSync()`, le deuxième argument peut être 'utf8' pour récupérer une `String` au lieu d'un `Buffer`.
 
 La documentation du module `fs` est disponible dans le fichier :
   {rootdir:/doc/node_apidoc/fs.html}
