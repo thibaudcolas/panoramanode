@@ -35,11 +35,9 @@ Voilà ! Direction le terminal, `midi-node` !
   + HTTP FILE SERVER
 - Streams
   + MEET PIPE
-  + INPUT OUTPUT
   + CRYPT
 - Programmation fonctionnelle
   + HIGHER ORDER FUNCTIONS
-  + BASIC MAP
   + BASIC FILTER
 - ES6
   + TEMPLATE STRINGS
