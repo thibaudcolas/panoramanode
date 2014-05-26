@@ -1,29 +1,29 @@
-Write a program that performs an HTTP GET request to a URL provided to you as the first command-line argument. Write the String contents of **each** "data" event from the response to a new line on the console (stdout).
+Écris un programme qui réalise une requête HTTP GET sur une URL passée comme premier argument de ligne de commande. Affiche la String du contenu de **chaque** évènement "data" de la réponse sur une ligne de la console (stdout)
 
 ----------------------------------------------------------------------
 ## Conseils
 
-For this exercise you will need to use the `http` core module.
+Pour cet exercice il faudra utiliser le module core `http`.
 
 La documentation du module `http` est disponible dans le fichier :
   {rootdir:/doc/node_apidoc/http.html}
 
-The `http.get()` method is a shortcut for simple GET requests, use it to simplify your solution. The first argument to `http.get()` can be the URL you want to GET, provide a callback as the second argument.
+La méthode `http.get()` est un raccourci pour les requêtes GET simples, et peut être utilisée dans cet exercice. Le premier argument de `http.get()` est l'URL à requêter, et le second le callback de traitement de la réponse.
 
-Unlike other callback functions, this one has the signature:
+Contrairement aux autres callback, celui-ci a la signature :
 
 ```js
 function callback (response) { /* ... */ }
 ```
 
-Where the `response` object is a Node **Stream** object. You can treat Node Streams as objects that emit events, the three events that are of most interest are: "data", "error" and "end". You listen to an event like so:
+Où l'objet `response` est un **Stream** Node. Les Streams peuvent être considérés comme des objets émettant des évènements, les trois évènements les plus importants étant : "data", "error" et "end". On écoute un évènement ainsi :
 
 ```js
 stream.on("data", function (data) { /* ... */ })
 ```
 
-The "data" is emitted when a chunk of data is available and can be processed. The size of the chunk depends upon the underlying data source.
+"data" est émis quand une poriton de donnée est disponbile et peut être traitée. La taille de la portion dépend de la source de données sous-jacente.
 
-The `response` object / Stream that you get from `http.get()` also has a `setEncoding()` method. If you call this method with "utf8", the "data" events will emit Strings rather than the standard Node `Buffer` objects which you have to explicitly convert to Strings.
+L'objet / Stream `response` obtenu de `http.get()` a aussi une méthode `setEncoding()`. Elle peut être appelée avec "utf8" pour que l'évènement "data" émette des Strings plutôt que des `Buffer`s Node qu'il faudrait ensuite explicitement convertir.
 
 ----------------------------------------------------------------------
