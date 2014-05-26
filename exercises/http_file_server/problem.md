@@ -31,8 +31,8 @@ var server = http.createServer(function (req, res) {
 server.listen(8000)
 ```
 
-Documentation on the `http` module can be found by pointing your browser here:
-  {rootdir:/node_apidoc/http.html}
+La documentation du module `http` est disponible dans le fichier :
+  {rootdir:/doc/node_apidoc/http.html}
 
 The `fs` core module also has some streaming APIs for files. You will need to use the `fs.createReadStream()` method to create a stream representing the file you are given as a command-line argument. The method returns a stream object which you can use `src.pipe(dst)` to pipe the data from the `src` stream to the `dst` stream. In this way you can connect a filesystem stream with an HTTP response stream.
 
