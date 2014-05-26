@@ -1,4 +1,4 @@
-[Midi Node](https://github.com/ThibWeb/midi-node)
+[Panorama Node](https://github.com/ThibWeb/panoramanode)
 =====
 
 > Découvrons Node ! — Une série d'exercices interactifs en français pour apprendre les bases de Node.
@@ -15,12 +15,12 @@ Les exercices sont des traductions quasi-directes d'exercices de [NodeSchool](ht
 Pré-requis : [Node.js](http://nodejs.org/) en version 0.10 au minimum.
 
 ```
-  npm install -g midi-node
+  npm install -g panoramanode
   # ou
-  sudo npm install -g midi-node
+  sudo npm install -g panoramanode
 ```
 
-Voilà ! Direction le terminal, `midi-node` !
+Voilà ! Direction le terminal, `panoramanode` !
 
 ## Liste des exercices
 

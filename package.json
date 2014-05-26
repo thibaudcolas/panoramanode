@@ -1,12 +1,12 @@
 {
-  "name": "midi-node",
+  "name": "panoramanode",
   "version": "0.1.0",
   "description": "Découvrons Node ! — Une série d'exercices interactifs en français.",
-  "bin": "./midi-node.js",
+  "bin": "./panoramanode.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:ThibWeb/midi-node.git"
+    "url": "git@github.com:ThibWeb/panoramanode.git"
   },
   "keywords": [
     "javascript",
@@ -17,7 +17,7 @@
   "author": "ThibWeb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ThibWeb/midi-node/issues"
+    "url": "https://github.com/ThibWeb/panoramanode/issues"
   },
   "dependencies": {
     "boganipsum": "^0.1.0",
