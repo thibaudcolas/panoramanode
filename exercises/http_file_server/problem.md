@@ -1,27 +1,27 @@
-Write an HTTP **server** that serves the same text file for each request it receives.
+Écris un **serveur** HTTP renvoyant le même fichier texte pour chaque requête qu'il reçoit.
 
-Your server should listen on the port provided by the first argument to your program.
+Ce serveur devra écouter sur le port passé en premier argument du programme.
 
-You will be provided with the location of the file to serve as the second command-line argument. You **must** use the `fs.createReadStream()` method to stream the file contents to the response.
+Le deuxième argument de ligne de commande sera le chemin du fichier à servir. Il est **obligatoire** d'utiliser la méthode `fs.createReadStream()` pour streamer le contenu du fichier en réponse.
 
 ----------------------------------------------------------------------
 ## Conseils
 
-Because we need to create an HTTP server for this exercise rather than a generic TCP server, we should use the `http` module from Node core. Like the `net` module, `http` also has a method named `http.createServer()` but this one creates a server that can talk HTTP.
+Puisque nous devons créer un serveur HTTP pour cet exercice plutôt qu'un serveur TCP générique, nous devrions utiliser le module `http` du core de Node. Comme le module `net`, `http` a également une méthode `http.createServer()` mais qui créé ici un serveur pouvant communiquer en HTTP.
 
-`http.createServer()` takes a callback that is called once for each connection received by your server. The callback function has the signature:
+`http.createServer()` prend en paramètre un callback appelé une fois pour chaque connexion reçue par le serveur. Ce callback a la signature :
 
 ```js
 function callback (request, response) { /* ... */ }
 ```
 
-Where the two arguments are objects representing the HTTP request and the corresponding response for this request. `request` is used to fetch properties, such as the header and query-string from the request while `response` is for sending data to the client, both headers and body.
+Où les deux paramètres sont des objets représentant la requête HTTP et la réponse correspondant à cette requête. `request` est utilisé pour récupérer les propriétés (header, query-string par exemple) alors que `response` sert à envoyer les données au client (header et body).
 
-Both `request` and `response` are also Node streams! Which means that you can use the streaming abstractions to send and receive data if they suit your use-case.
+`request` et `response` sont tous deux des Streams Node. Cela signifie que nous pouvons utiliser les abstractions des streams pour envoyer et recevoir des données.
 
-`http.createServer()` also returns an instance of your `server`. You must call `server.listen(portNumber)` to start listening on a particular port.
+`http.createServer()` retourne également une instance de `server`. Il faut appeler `server.listen(portNumber)` pour démarrer l'écoute sur un port.
 
-A typical Node HTTP server looks like this:
+Un serveur HTTP Node typique ressemble à : 
 
 ```js
 var http = require('http')
@@ -34,6 +34,6 @@ server.listen(8000)
 La documentation du module `http` est disponible dans le fichier :
   {rootdir:/doc/node_apidoc/http.html}
 
-The `fs` core module also has some streaming APIs for files. You will need to use the `fs.createReadStream()` method to create a stream representing the file you are given as a command-line argument. The method returns a stream object which you can use `src.pipe(dst)` to pipe the data from the `src` stream to the `dst` stream. In this way you can connect a filesystem stream with an HTTP response stream.
+Le module core `fs` a également des APIs de streaming, pour les fichiers. Il faudra utiliser `fs.createReadStream()` pour créer un stream représentant le fichier donné comme argument au programme. La méthode retourne un stream sur lequel on peut utiliser `src.pipe(dst)` pour transférer les données du stream `src` au stream `dst`. De cette manière, il est possible de relier un stream de lecture de fichier à un stream d'écriture de réponse HTTP.
 
 ----------------------------------------------------------------------
