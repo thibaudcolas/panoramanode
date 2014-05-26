@@ -2,7 +2,7 @@
   "name": "midi-node",
   "version": "0.1.0",
   "description": "Découvrons Node ! — Une série d'exercices interactifs en français.",
-  "bin" : "./midi-node.js",
+  "bin": "./midi-node.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
@@ -20,8 +20,16 @@
     "url": "https://github.com/ThibWeb/midi-node/issues"
   },
   "dependencies": {
-    "workshopper-exercise": "^0.2.3",
+    "boganipsum": "^0.1.0",
+    "hyperquest": "^0.3.0",
+    "lorem-ipsum": "^1.0.1",
+    "q": "^1.0.1",
+    "rimraf": "^2.2.8",
+    "through": "^2.3.4",
+    "through2": "^0.4.2",
+    "traceur": "0.0.42",
     "workshopper": "^1.0.0-alpha07",
-    "traceur": "0.0.42"
+    "workshopper-exercise": "^0.2.3",
+    "workshopper-wrappedexec": "^0.1.1"
   }
 }
