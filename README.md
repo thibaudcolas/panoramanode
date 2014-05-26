@@ -42,11 +42,10 @@ Voilà ! Direction le terminal, `midi-node` !
 - ES6
   + TEMPLATE STRINGS
   + SPREAD
-  + REST
 
 ## TODO
 
-- Documentation de JavaScript
+- Documentation de JavaScript / ES6
 - Traduction
 - Vérification
 - Ajout de solutions avec / sans ES6
