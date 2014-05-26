@@ -18,11 +18,11 @@ Toutes les opérations i/o synchrone (ou bloquante) du module `fs` finissent par
 La documentation du module `fs` est disponible dans le fichier :
   {rootdir:/doc/node_apidoc/fs.html}
 
-`Buffer` objects are Node's way of efficiently representing arbitrary arrays of data, whether it be ascii, binary or some other format. `Buffer` objects can be converted to strings by simply calling the `toString()` method on them. e.g. `var str = buf.toString()`.
+Les objets `Buffer` sont la manière Node de représenter efficacement des tableaux de données arbitraires (ASCII, binaire ou autre). Les `Buffer`s peuvent être convertis en strings en appelant leur méthode `toString()`. Exemple : `var str = buf.toString()`.
 
-La documentation sur les `Buffer`s est disponible dans le fichier :
+La documentation sur les objets `Buffer` est disponible dans le fichier :
   {rootdir:/doc/node_apidoc/buffer.html}
 
-If you're looking for an easy way to count the number of newlines in a string, recall that a JavaScript `String` can be `.split()` into an array of substrings and that '\n' can be used as a delimiter. Note that the test file does not have a newline character ('\n') at the end of the last line, so using this method you'll end up with an array that has one more element than the number of newlines.
+Pour une façon simple de compter le nombre de retours chariot dans une chaîne de caractère, une `String` Javascript peut être découpée (`.split()`) en un tableau de sous-chaînes et '\n' peut être utilisé comme délimiteur. Note : le fichier de test n'a pas de retour chariot en fin de fichier, cette méthode donnera donc un tableau d'une case de plus que le nombre de lignes dans le fichier.
 
 ----------------------------------------------------------------------
