@@ -1,18 +1,15 @@
-You will get a file as the first argument to your program (process.argv[2]).
-
-Use `fs.createReadStream()` to pipe the given file to `process.stdout`.
+Écris un programme qui accepte un fichier comme argument et qui utilise `fs.createReadStream()` pour transférer (__pipe__) le fichier en question dans `process.stdout`.
 
 ----------------------------------------------------------------------
 ## Conseils
 
-`fs.createReadStream()` takes a file as an argument and returns a readable
-stream that you can call `.pipe()` on. Here's a readable stream that pipes its
-data to `process.stderr`:
+`fs.createReadStream()` prend un fichier comme argument et retourne un stream de lecture sur lequel on peut appeler `.pipe()`. Voici un exemple de stream qui transfère ses données vers `process.stderr`:
 
-    var fs = require('fs');
-    fs.createReadStream('data.txt').pipe(process.stderr);
+```js
+var fs = require('fs');
+fs.createReadStream('data.txt').pipe(process.stderr);
+```
 
-Your program is basically the same idea, but instead of `'data.txt'`, the
-filename comes from `process.argv[2]` and you should pipe to stdout, not stderr.
+Ce programme suivra le même principe, mais le nom du fichier proviendra de `process.argv[2]`, et le pipe sera fait vers stdout.
 
 ----------------------------------------------------------------------
