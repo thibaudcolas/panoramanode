@@ -1,20 +1,19 @@
-Implement a higher-order function that takes a function and calls it 'n' times.
+Implémente une fonction d'ordre supérieur (higher-order function) qui prend une fonction en paramètre et l'appelle 'n' fois.
 
 ----------------------------------------------------------------------
-## Higher-order functions
+## Fonctions d'ordre supérieur
 
-A higher-order function (also functional form, functional or functor) is a function that does at least one of the following:
+Une fonction d'ordre supérieur (forme fonctionnelle, functor) est une fonction qui a au moins l'une de ces propriétés :
 
-* take one or more functions as an input
-* output a function
+* prend une ou plusieurs fonctions comme entrée
+* renvoie une fonction en sortie
 
-All other functions are first order functions. [1]
-
+Toutes les autres fonctions sont de premier ordre.
 
 ## Paramètres
 
-* operation: A Function, takes no arguments, returns no useful value.
-* num: the number of times to call `operation`
+* operation : Une fonction, ne prend pas de paramètre, ne retourne rien.
+* num : le nombre d'appels de `operation` à effectuer.
 
 ## Ressources
 
@@ -22,8 +21,7 @@ All other functions are first order functions. [1]
 
 ## Conseils : récursion
 
-It's ok to use a loop in your implementation, bonus points
-if you don't.
+Il est possible d'utiliser une boucle pour l'implémentation, points bonus en s'en passant.
 
 ## Base
 
