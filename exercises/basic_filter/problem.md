@@ -35,8 +35,8 @@ i.e.
 
 ## Ressources
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+* https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+* https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
 ## Base
 
