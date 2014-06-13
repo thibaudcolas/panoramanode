@@ -1,12 +1,11 @@
-Use Array#filter to write a function called `getShortMessages`.
+Utilise Array#filter pour écrire une fonction appelée `getShortMessages`.
 
-`getShortMessages` takes an array of objects with '.message' properties
-and returns an array of messages that are *less than < 50 characters long*.
+`getShortMessages` prend un tableau d'objets avec des propriétés '.message' et retourne un tableau de messages étant *longs de moins de 50 caractères*.
 
 ----------------------------------------------------------------------
 ## Paramètres
 
-* messages: an Array of 10 to 100 random objects that look something like this:
+* messages: un tableau de 10 à 100 objets aléatoires ressemblant à :
 
 ```js
 {
@@ -16,18 +15,17 @@ and returns an array of messages that are *less than < 50 characters long*.
 
 ## Conditions
 
-* Do not use for loops or Array#forEach.
+* Ne pas utiliser de boucle for ni Array#forEach.
 
 ## Conseils
 
-* Try chaining some Array methods!
+* Il faut essayer de chaîner des méthodes de tableau !
 
 ## Sortie attendue
 
-The function should return an array containing the messages themselves,
-*without their containing object*.
+La fonction doit retourner un tableau contenant directement les messages, *sans leur objet conteneur*.
 
-e.g.
+i.e.
 ```
 [ 'Tempor quis esse consequat sunt ea eiusmod.',
   'Id culpa ad proident ad nulla laborum incididunt.',
