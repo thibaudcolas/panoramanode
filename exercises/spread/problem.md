@@ -1,25 +1,27 @@
-Output the minimum value of multiple number parameters by using the new spread ES6 construct.
+Écris un programme qui prend plusieurs nombres en entrée et qui retourne le plus petit en utilisant le spread de ES6.
 
 ----------------------------------------------------------------------
 ## Conseils
 
-ES6 provides two closely related concepts, _rest_ and _spread_, for functions with variadic numbers of arguments. In this exercise we'll explore the spread side of things.
+ES6 fournit deux concepts proches, _rest_ et _spread_, pour écrire des fonctions variadiques (nombre d'arguments variable).
 
-An example of a variadic function would be `Math.max`, which you can call with any number of arguments: `Math.max(1, 2)` or `Math.max(1, 2, 3)` or ...
+Un exemple de fonction variadique est `Math.max`, qui peut être appelée avec n'importe quel nombre d'arguments : `Math.max(1, 2)` ou `Math.max(1, 2, 3)` ou ...
 
-In ES6, you can use the `...args` syntax to "spread" an array out when calling such a function. For example,
+Avec ES6, il est possible d'utiliser la syntaxe `...args` pour "étaler" ("spread") un tableau depuis ces paramètres.
 
 ```js
 var numbers = [1, 1, 2, 3, 5, 8];
 var max = Math.max(...numbers);
 ```
 
-This replaces the need for our old friend, `.apply`. Good riddance!
+Cette syntaxe permet de se passer du bon vieux `.apply`. Bon débarras !
 
 ----------------------------------------------------------------------
 ## Paramètres 
 
-You'll be given a variable number of arguments (`process.argv[2]` onward) to your program, all of which will be numbers. Use the ES6 spread operator to find the minimum value of these numbers and log it to the console. And let's log the list of numbers themselves, to make it clearer. So the output should be, for example:
+Le programme recevra une quantité variable de nombre en argument (`process.argv[2]` et la suite). Il faut utiliser l'opérateur spread de ES6 pour récupérer la plus petite valeur dans ces nombres et l'afficher sur la console. Il faut également afficher la liste de nombres, pour la route.
+
+Voici un exemple de sortie attendue :
 
 ```
 The minimum of { 18, 5, 7, 24 } is 5
