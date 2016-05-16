@@ -15,9 +15,7 @@ Les exercices sont des traductions quasi-directes d'exercices de [NodeSchool](ht
 Pré-requis : [Node.js](http://nodejs.org/) en version 0.10 au minimum.
 
 ```
-  npm install -g panoramanode
-  # ou
-  sudo npm install -g panoramanode
+npm install -g panoramanode
 ```
 
 Voilà ! Direction le terminal, `panoramanode` !
