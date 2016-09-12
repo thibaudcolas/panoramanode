@@ -6,7 +6,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:ThibWeb/panoramanode.git"
+    "url": "git@github.com:thibaudcolas/panoramanode.git"
   },
   "keywords": [
     "javascript",
@@ -14,10 +14,10 @@
     "nodeschool",
     "training"
   ],
-  "author": "ThibWeb",
+  "author": "thibaudcolas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ThibWeb/panoramanode/issues"
+    "url": "https://github.com/thibaudcolas/panoramanode/issues"
   },
   "dependencies": {
     "boganipsum": "^0.1.0",

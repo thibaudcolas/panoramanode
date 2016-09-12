@@ -1,4 +1,4 @@
-[Panorama Node](https://github.com/ThibWeb/panoramanode)
+[Panorama Node](https://github.com/thibaudcolas/panoramanode)
 =====
 
 > Découvrons Node ! — Une série d'exercices interactifs en français pour apprendre les bases de Node.
